@@ -3,7 +3,7 @@ attrs==23.2.0
     #   -r requirements.txt
     #   jsonschema
     #   referencing
-black==24.4.0
+black==24.4.2
     # via -r requirements-dev.in
 click==8.1.7
     # via
