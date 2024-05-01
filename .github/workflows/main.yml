@@ -27,7 +27,7 @@ jobs:
         os: ['ubuntu-latest', 'windows-latest', 'macos-latest']
     steps:
       - name: 'Checkout'
-        uses: 'actions/checkout@1d96c772d19495a3b5c517cd2bc0cb401ea0529f'
+        uses: 'actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b'
       - name: 'Use Python ${{ matrix.python_version }}'
         uses: 'actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d'
         with:
@@ -52,7 +52,7 @@ jobs:
       packages: 'write'
     steps:
       - name: 'Checkout'
-        uses: 'actions/checkout@1d96c772d19495a3b5c517cd2bc0cb401ea0529f'
+        uses: 'actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b'
       - name: 'Set up QEMU'
         uses: 'docker/setup-qemu-action@68827325e0b33c7199eb31dd4e31fbe9023e06e3'
       - name: 'Set up Docker Buildx'
