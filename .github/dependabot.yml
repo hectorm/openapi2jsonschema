@@ -6,13 +6,22 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      pip-minor-patch:
+        update-types: ["minor", "patch"]
 
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      docker-all:
+        patterns: ["*"]
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
+    groups:
+      github-actions-all:
+        patterns: ["*"]
