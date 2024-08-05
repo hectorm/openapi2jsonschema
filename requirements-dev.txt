@@ -3,7 +3,7 @@ attrs==23.2.0
     #   -r requirements.txt
     #   jsonschema
     #   referencing
-black==24.4.2
+black==24.8.0
     # via -r requirements-dev.in
 click==8.1.7
     # via
@@ -21,7 +21,7 @@ jsonschema-specifications==2023.12.1
     # via
     #   -r requirements.txt
     #   jsonschema
-mypy==1.11.0
+mypy==1.11.1
     # via -r requirements-dev.in
 mypy-extensions==1.0.0
     # via
