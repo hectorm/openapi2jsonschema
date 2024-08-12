@@ -43,7 +43,7 @@ pytest==8.3.2
     #   pytest-datafiles
 pytest-datafiles==3.0.0
     # via -r requirements-dev.in
-pyyaml==6.0.1
+pyyaml==6.0.2
     # via -r requirements.txt
 referencing==0.33.0
     # via
