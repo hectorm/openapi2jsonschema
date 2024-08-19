@@ -2,7 +2,7 @@
 ## "base" stage
 ##################################################
 
-FROM docker.io/python:3.12-slim-bookworm@sha256:105e9d85a67db1602e70fa2bbb49c1e66bae7e3bdcb6259344fe8ca116434f74 AS base
+FROM docker.io/python:3.12-slim-bookworm@sha256:59c7332a4a24373861c4a5f0eec2c92b87e3efeb8ddef011744ef9a751b1d11c AS base
 
 ARG USER=oasch
 ARG UID=49374
