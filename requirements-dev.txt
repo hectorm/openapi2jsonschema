@@ -55,7 +55,7 @@ rpds-py==0.17.1
     #   -r requirements.txt
     #   jsonschema
     #   referencing
-types-pyyaml==6.0.12.20240808
+types-pyyaml==6.0.12.20240917
     # via -r requirements-dev.in
 typing-extensions==4.9.0
     # via mypy
