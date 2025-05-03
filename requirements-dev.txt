@@ -9,6 +9,8 @@ click==8.1.8
     # via
     #   -r requirements.txt
     #   black
+exceptiongroup==1.2.2
+    # via pytest
 iniconfig==2.0.0
     # via pytest
 isort==6.0.1
@@ -55,7 +57,14 @@ rpds-py==0.17.1
     #   -r requirements.txt
     #   jsonschema
     #   referencing
-types-pyyaml==6.0.12.20241230
+tomli==2.2.1
+    # via
+    #   black
+    #   mypy
+    #   pytest
+types-pyyaml==6.0.12.20250402
     # via -r requirements-dev.in
 typing-extensions==4.9.0
-    # via mypy
+    # via
+    #   black
+    #   mypy
