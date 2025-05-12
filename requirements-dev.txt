@@ -5,7 +5,7 @@ attrs==23.2.0
     #   referencing
 black==25.1.0
     # via -r requirements-dev.in
-click==8.1.8
+click==8.2.0
     # via
     #   -r requirements.txt
     #   black
