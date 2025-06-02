@@ -1,4 +1,4 @@
-click~=8.1
+click~=8.2
 jsonref~=1.1
-jsonschema~=4.23
+jsonschema~=4.24
 pyyaml~=6.0
