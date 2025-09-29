@@ -3,9 +3,9 @@ attrs==23.2.0
     #   -r requirements.txt
     #   jsonschema
     #   referencing
-black==25.1.0
+black==25.9.0
     # via -r requirements-dev.in
-click==8.2.1
+click==8.3.0
     # via
     #   -r requirements.txt
     #   black
@@ -17,13 +17,13 @@ isort==6.0.1
     # via -r requirements-dev.in
 jsonref==1.1.0
     # via -r requirements.txt
-jsonschema==4.24.0
+jsonschema==4.25.1
     # via -r requirements.txt
 jsonschema-specifications==2023.12.1
     # via
     #   -r requirements.txt
     #   jsonschema
-mypy==1.16.1
+mypy==1.18.2
     # via -r requirements-dev.in
 mypy-extensions==1.0.0
     # via
@@ -43,13 +43,15 @@ pluggy==1.5.0
     # via pytest
 pygments==2.19.1
     # via pytest
-pytest==8.4.1
+pytest==8.4.2
     # via
     #   -r requirements-dev.in
     #   pytest-datafiles
 pytest-datafiles==3.0.0
     # via -r requirements-dev.in
-pyyaml==6.0.2
+pytokens==0.1.10
+    # via black
+pyyaml==6.0.3
     # via -r requirements.txt
 referencing==0.33.0
     # via
