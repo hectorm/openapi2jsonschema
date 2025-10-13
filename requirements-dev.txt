@@ -13,7 +13,7 @@ exceptiongroup==1.2.2
     # via pytest
 iniconfig==2.0.0
     # via pytest
-isort==6.1.0
+isort==7.0.0
     # via -r requirements-dev.in
 jsonref==1.1.0
     # via -r requirements.txt
