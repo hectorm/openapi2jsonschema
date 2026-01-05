@@ -3,9 +3,9 @@ attrs==23.2.0
     #   -r requirements.txt
     #   jsonschema
     #   referencing
-black==25.9.0
+black==25.12.0
     # via -r requirements-dev.in
-click==8.3.0
+click==8.3.1
     # via
     #   -r requirements.txt
     #   black
@@ -23,7 +23,9 @@ jsonschema-specifications==2023.12.1
     # via
     #   -r requirements.txt
     #   jsonschema
-mypy==1.18.2
+librt==0.7.7
+    # via mypy
+mypy==1.19.1
     # via -r requirements-dev.in
 mypy-extensions==1.0.0
     # via
@@ -47,9 +49,9 @@ pytest==8.4.2
     # via
     #   -r requirements-dev.in
     #   pytest-datafiles
-pytest-datafiles==3.0.0
+pytest-datafiles==3.0.1
     # via -r requirements-dev.in
-pytokens==0.1.10
+pytokens==0.3.0
     # via black
 pyyaml==6.0.3
     # via -r requirements.txt
