@@ -1,7 +1,7 @@
 -r requirements.txt
-black~=26.1
+black~=26.3
 isort~=7.0
-mypy~=1.19
+mypy~=1.20
 pytest-datafiles~=3.0
 pytest~=9.0
 types-PyYAML~=6.0
