@@ -9,6 +9,8 @@ click==8.3.1
     # via
     #   -r requirements.txt
     #   black
+exceptiongroup==1.3.1
+    # via pytest
 iniconfig==2.3.0
     # via pytest
 isort==7.0.0
@@ -43,7 +45,7 @@ pluggy==1.6.0
     # via pytest
 pygments==2.19.2
     # via pytest
-pytest==9.0.2
+pytest==9.0.3
     # via
     #   -r requirements-dev.in
     #   pytest-datafiles
@@ -63,7 +65,16 @@ rpds-py==0.30.0
     #   -r requirements.txt
     #   jsonschema
     #   referencing
+tomli==2.4.1
+    # via
+    #   black
+    #   mypy
+    #   pytest
 types-pyyaml==6.0.12.20250915
     # via -r requirements-dev.in
 typing-extensions==4.15.0
-    # via mypy
+    # via
+    #   black
+    #   exceptiongroup
+    #   mypy
+    #   referencing
